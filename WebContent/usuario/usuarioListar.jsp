@@ -34,8 +34,8 @@
 				<table class="table table-bordered table-striped table-hover">
 					<thead>
 						<tr>
-							<th>Email</th>
 							<th>Nome</th>
+							<th>Email</th>
 						<!--<th>Senha</th> -->
 							<th>Editar</th>
 							<th>Excluir</th>
@@ -44,8 +44,8 @@
 
 					<tbody>
 						<tr>
-							<td><%=usuario.getEmail()%></td>
 							<td><%=usuario.getNome()%></td>
+							<td><%=usuario.getEmail()%></td>
 						<!--<td><%=usuario.getSenha()%></td> -->
 							<td><a
 								href="ManterUsuario?acao=editarUsuario&email=<%=usuario.getEmail()%>"
@@ -55,7 +55,7 @@
 									<input type="hidden" name="acao" value="excluirUsuario" /> <input
 										type="hidden" name="email" value="<%=usuario.getEmail()%>" />
 
-									<input type="submit" value="Excluir" class="btn btn-danger" disabled/>
+									<input type="submit" value="Excluir" class="btn btn-danger " disabled />
 								</form>
 							</td>
 						</tr>

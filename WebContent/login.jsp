@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>GESTOECON- PAGINA INICIAL</title>
+<title>GESTOECON - PAGINA INICIAL</title>
 </head>
 <jsp:include page="cabecalho.jsp"></jsp:include>
 <body>
@@ -10,12 +10,13 @@
 
 	<div class="container">
 		<div class="page-header">
-			<h3>Bem vindo ao GestoEcon </h3>
+			
+			<h1> <font face="Impact"> BEM VINDO AO GESTOECON!</font> </h1>
+			<h3><font> <font face="segoe script"> Faça login e aproveite!</font></h3> 
 			
 		</div>
+		
 		<center>
-
-
 
  <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">

@@ -63,7 +63,7 @@
 
 					<!-- Text input-->
 					<div class="form-group">
-						<label class="col-md-4 control-label" for="inserirMovimento">Nome</label>
+						<label class="col-md-4 control-label" for="inserirMovimento">Descrição</label>
 						<div class="col-md-4">
 							<input id="nome" name="nome" type="text"
 								placeholder="Descrição do movimento."
@@ -77,7 +77,7 @@
 						<label class="col-md-4 control-label" for="valor">Valor</label>
 						<div class="col-md-4">
 							<input id="valor" name="valor" type="text"
-								placeholder="Valor do movimento" class="form-control input-md"
+								placeholder="Utilize ponto (.) para decimais." class="form-control input-md"
 								required="required">
 
 						</div>

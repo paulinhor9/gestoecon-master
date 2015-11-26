@@ -12,16 +12,17 @@
 		<div class="container">
 			<div class="page-header">
 			
-				<h1>Conta cadastrada com sucesso!</h1>
+				<H2>REGISTRANDO CONTA NO BANCO DE DADOS!</H2>
 			</div>
 
 
 			<div class="alert alert-default">
 				<td>
 					<h4>AGUARDE</h4>
-					<h5>VOCÊ SERÁ REDIRECIONADO!</h5> <br> 
+					<h5>PROCESSANDO O REGISTRO ! :)</h5> <br> 
 				</td>
-				
+			
+				<img src="../imagens/load.gif" />
 				
 				
 					<!-- REDIRECIONADOR -->

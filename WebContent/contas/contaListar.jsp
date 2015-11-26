@@ -63,7 +63,7 @@
 								
 									<input type="hidden" name="acao" value="excluirConta" /> <input
 										type="hidden" name="id" value="<%=conta.getId()%>" /> <input
-										type="submit" value="Excluir" class="btn btn-danger" disabled />
+										type="submit" value="Excluir" class="btn btn-danger" />
 
 								</form>
 							</td>

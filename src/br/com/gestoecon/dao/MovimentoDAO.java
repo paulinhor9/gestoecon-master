@@ -49,8 +49,9 @@ public class MovimentoDAO {
 		try {
 			objCon = ConexaoDAO.getConnection();
 			pstm = objCon.prepareStatement(sqlExclusao);
+			
 			pstm.setInt(1, objMovimento.getId_movimento());
-			pstm.setString(2, objMovimento.getIdUsuario());
+			
 			
 			pstm.executeUpdate();
 			System.out.println("Exclusao Feita com Sucesso!");

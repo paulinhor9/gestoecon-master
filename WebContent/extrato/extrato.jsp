@@ -48,7 +48,7 @@
 			<div class="container">
     		<div class="row">
         	<div class="page-header">
-            <h1> <i class="glyphicon glyphicon-th-list "></i> Emitir Extrato</h1>
+            <h1> <i class=" glyphicon glyphicon-folder-open "> </i> Emitir Extrato</h1>
 					
 					
 					<!-- SELECIONAR CONTA PARA EXTRATO -->
@@ -133,7 +133,7 @@
 							<td>
 								<form action="../ManterMovimento" method="post">
 									<input type="hidden" name="acao" value="excluirMovimento"/> <input
-										type="hidden" name="id" value="<%= movimento.getId_movimento()%>" /> <input
+										type="hidden" name="Id_movimento" value="<%= movimento.getId_movimento()%>" /> <input
 										type="submit" value="Excluir" class="btn btn-danger" />
 
 								</form>

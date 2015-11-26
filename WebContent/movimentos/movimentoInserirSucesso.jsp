@@ -12,7 +12,7 @@
 		<div class="container">
 			<div class="page-header">
 			
-				<h1>Movimento realizado com sucesso!</h1>
+				<h1>REGISTRANDO MOVIMENTO!</h1>
 			</div>
 
 
@@ -26,7 +26,7 @@
 				
 				
 					<!-- REDIRECIONADOR -->
-	<meta http-equiv="refresh" content="5; url=../movimentos/movimentoInserir.jsp"> 
+	<meta http-equiv="refresh" content="2; url=../movimentos/movimentoInserir.jsp"> 
 	</center>
 	</div>
 	</div>

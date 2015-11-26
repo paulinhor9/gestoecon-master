@@ -46,8 +46,9 @@ public class ContaDAO {
 			objCon = ConexaoDAO.getConnection();
 			pstm = objCon.prepareStatement(sqlExclusao);
 			pstm.setInt(1, objConta.getId());
-			pstm.setString(2, objConta.getIdUsuario());
+		//	pstm.setString(2, objConta.getIdUsuario());
 			pstm.executeUpdate();
+			
 			System.out.println("Exclusao Feita com Sucesso!");
 		} catch (Exception e) {
 			System.out.println("Erro na exclusao da Conta!\nMotivo: " + e.getMessage());

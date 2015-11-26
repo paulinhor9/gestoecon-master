@@ -12,7 +12,7 @@
 		<div class="container">
 			<div class="page-header">
 			
-				<h1>Movimento excluido com sucesso!</h1>
+				<h1>EXCLUINDO MOVIMENTO!</h1>
 			</div>
 
 
@@ -26,7 +26,7 @@
 				
 				
 					<!-- REDIRECIONADOR -->
-	<meta http-equiv="refresh" content="5; url=../movimentos/movimentoInserir.jsp"> 
+	<meta http-equiv="refresh" content="3; url=../extrato/extrato.jsp"> 
 	</center>
 	</div>
 	</div>
